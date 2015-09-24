@@ -1,7 +1,11 @@
 /*Fonts*/
 @font-face {
+    font-family: "Adobe Garamond Pro Italic";
+    src: url(../fonts/Adobe-Garamond-Pro-Italic.ttf);
+}
+@font-face {
     font-family: "Adobe Garamond Pro";
-    src: url(../fonts/Adobe-Garamond-Pro.ttf);
+    src: url(../fonts/Adobe-Garamond-Pro-Regular.ttf);
 }
 @font-face {
     font-family: "Proxima Nova Bold";
@@ -72,7 +76,7 @@
     width:20%;
     height:20%;
 }
-@media(min-width: 768px){
+@media(min-width: 960px){
     .primary-menu{
         font-family:"Century Gothic", sans-serif;
         height:100%;
@@ -90,7 +94,7 @@
         display:none;
     }
 }
-@media(max-width:768px){
+@media(max-width:960px){
     .personal-icon{
         display:none;
     }
@@ -192,6 +196,10 @@
     margin-top:50px;
     color: #FFFFFF;
     transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
 }
 .button:hover{
     background-color:#FFFFFF;
@@ -208,9 +216,13 @@
 .menu-item-wrapper:hover{
     border-right: 1px solid #FFFFFF;
 }
+.row{
+    padding-top:50px;
+    padding-bottom:50px;
+}
 /*Home Page*/
 .home-item-1{
-    font-family: "Adobe Garamond Pro";
+    font-family: "Adobe Garamond Pro Italic";
     color: #FFFFFF;
     width:80%;
     text-align:center;
@@ -232,12 +244,77 @@
         min-height:20%;
     }
 }
-@media(max-width:768px){
+
+/*My Projects*/
+.project-title{
+    font-family: "Adobe Garamond Pro";
+    font-size:30pt;
+    text-align:center;
+    padding-top:35px;
 }
-
-
-
-
+.divider{
+    padding-top:50px;
+    border-bottom:1px solid #e0e0e0;
+}
+.project-image{
+    display:block;
+    height:300px;
+    width:300px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.project-image:hover{
+    opacity: 0.2
+}
+.nodejs{
+    height:200px;
+    padding-top:50px;
+}
+.connect4{
+    height:250px;
+    padding-top:25px;
+}
+.project-image-wrapper{
+    position:relative;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.image-description{
+    position:absolute;
+}
+.image-description-wrapper{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#hack-the-north{
+    background: url("../img/projects/hack-the-north.png") no-repeat center;
+    background-size: 300px 300px;
+}
+#draw{
+    background: url("../img/projects/draw.png") no-repeat center;
+    background-size: 300px 200px;
+}
+#connect4{
+    background: url("../img/projects/connect4.png") no-repeat center;
+    background-size: 300px 250px;
+}
+#data-binding{
+    background: url("../img/projects/data-binding.png") no-repeat center;
+    background-size: 300px 300px;
+}
+@media(min-width: 768px){
+    .project-wrapper{
+        margin-left: 50px;
+    }
+    .project-content-wrapper{
+        width:80%;
+        margin:auto;
+    }
+}
 
 
 
