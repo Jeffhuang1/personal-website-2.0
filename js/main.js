@@ -1,3 +1,4 @@
+//this page is for main page and the nav bar
 $(document).ready(function(){
 	var windowHeight = $(window).height();
 	var windowWidth = $(window).width();

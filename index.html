@@ -5,8 +5,9 @@
 		Personal Website
 	</title>
 
-    <link type="text/css" rel="stylesheet" href="css/pure-min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/grids-responsive-min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/vendor/pure-min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/vendor/grids-responsive-min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/vendor/lightbox.min.css"  media="screen,projection"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
     
     <!--Let browser know website is optimized for mobile-->
@@ -79,22 +80,159 @@
 	<div class="project-content-wrapper">
 		<div class="divider">
 		</div>
-		<div class="project-title">
+		<div class="page-title">
 			My Projects
 		</div>
 		<div class="pure-g row">
 			<div class="pure-u-1-1 pure-u-md-1-2 project-image-wrapper">
-				<div id="hack-the-north"class="project-image center" src="img/projects/hack-the-north.png"></div>
+				<div class="text-overlay project-text-jarvis">
+					<div class="project-title">Jarvis</div>
+					<div class="project-content">Personalized Hands-Free Navigational Assistant for Cyclists Made Using BlueTooth, Arduinos, and Google Maps API</div>
+					<div class="thin-row">Winner of Hack the North 2015!</div>
+					<div class="pure-g">
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Demo</div>
+						</div>
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Github</div>
+						</div>
+					</div>
+				</div>
+				<img id="hack-the-north"class="project-image center" src="img/projects/hack-the-north.png">
 			</div>
 			<div class="pure-u-1-1 pure-u-md-1-2 project-image-wrapper">
-				<div id="draw"class="project-image nodejs center" src="img/projects/draw.png"/></div>
+				<div class="text-overlay project-text-draw">
+					<div class="project-title">Draw</div>
+					<div class="project-content">Online Pictionary Application Build on Top of the MEAN Stack and Powered by HTML5 WebSockets.</div>
+					<div class="pure-g">
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Demo</div>
+						</div>
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Github</div>
+						</div>
+					</div>
+				</div>
+				<img id="draw"class="project-image nodejs center" src="img/projects/draw.jpg"/>
 			</div>
 			<div class="pure-u-1-1 pure-u-md-1-2 project-image-wrapper">
-				<div id="connect4"class="project-image center connect4" src="img/projects/connect4.png"></div>
+				<div class="text-overlay  project-text-connect-4">
+					<div class="project-title">Connect 4</div>
+					<div class="project-content">Connect 4 in the Browser with Full AI and Local Multiplayer Support Created with VanillaJS</div>
+					<div class="pure-g">
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Demo</div>
+						</div>
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Github</div>
+						</div>
+					</div>
+				</div>
+				<img id="connect4"class="project-image center connect4" src="img/projects/connect4.png"/>
 			</div>
 			<div class="pure-u-1-1 pure-u-md-1-2 project-image-wrapper">
-				<div id="data-binding"class="project-image center" src="img/projects/data-binding.png"></div>
+				<div class="text-overlay">
+					<div class="project-title one-line">Data Binding</div>
+					<div class="project-content">Presentation on Angular.js, Knockout.js, and Knockout.js Built on the RevealJS Presentation Framework</div>
+					<div class="pure-g">
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Demo</div>
+						</div>
+						<div class="pure-u-1-2 button2 center">
+							<div class="button2-text">Github</div>
+						</div>
+					</div>
+				</div>
+				<img id="data-binding"class="project-image center" src="img/projects/data-binding.png"/>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="project-wrapper">
+	<div class="project-content-wrapper">
+		<div class="divider">
+		</div>
+		<div class="page-title">
+			Interests
+		</div>
+		<div class="pure-g interests-image-wrapper">
+			<div class="pure-u-1-2 pure-u-md-1-3 pure-u-xl-1-6">
+				<a href="img/interests/computer.png" data-lightbox="image-1" data-title="
+					Computers have been an interest of mine ever since I discovered minesweeper when I was 5.
+					As I grew older, this interest turned into building my own computer in grade 9 and learning
+					to program in JavaScript, C#, Java, and Python.
+				">
+					<img class="pure-img light-box-image" src="img/interests/computer.png"/>
+				</a>
+			</div>
+			<div class="pure-u-1-2 pure-u-md-1-3 pure-u-xl-1-6" >
+				<a href="img/interests/mun.png" data-lightbox="image-2" data-title="
+					Model United Nations is a Canada-wide conference that is held every few months for high school
+					and university students to meet and discuss current world problems. I have been to 5 of 
+					these conferences, and through that experience, I learned invaluable teamwork and leadership 
+					skills by learning how to compromise with others in international diplomacy.
+				">
+					<img class="pure-img light-box-image" src="img/interests/mun.png"/>
+				</a>
+			</div>
+			<div class="pure-u-1-2 pure-u-md-1-3 pure-u-xl-1-6">
+				<a href="img/interests/chess.gif" data-lightbox="image-3" data-title="
+					Chess is my favourite board game. I hosted my high school's chess club. My club would 
+					meet weekly to simply play chess with each other for fun. I also held tutorials where 
+					club members could come to learn strategies in chess. As a club, we also attended 
+					local tournaments with other schools.
+				">
+					<img class="pure-img light-box-image" src="img/interests/chess.gif"/>
+				</a>
+			</div>
+			<div class="pure-u-1-2 pure-u-md-1-3 pure-u-xl-1-6">
+				<a href="img/interests/boardgames.png" data-lightbox="image-4" data-title="
+					Board games are one of my favourite pasttimes. Whenever I get the opportunity. I get together with my friends to play. My favourite boardgame is Settlers of Catan.
+				">
+					<img class="pure-img" src="img/interests/boardgames.png"/>
+				</a>
+			</div>
+			<div class="pure-u-1-2 pure-u-md-1-3 pure-u-xl-1-6">
+				<a href="img/interests/tennis.png" data-lightbox="image-5" data-title="
+					I have been playing tennis since grade 7 and it is by far my favourite sport. In high school,
+					playing tennis with my friends at my high school's tennis court was one of my most enjoyable
+					pastimes.
+				">
+					<img class="pure-img light-box-image" src="img/interests/tennis.png"/>
+				</a>
+			</div>
+			<div class="pure-u-1-2 pure-u-md-1-3 pure-u-xl-1-6">
+				<a href="img/interests/reading.jpg" data-lightbox="image-6" data-title="
+					During my free time, I like to read. i typically read young adult and adult fiction. 
+					My favourite book is the sea of tranquility by katja millay.
+				">
+					<img class="pure-img light-box-image" src="img/interests/reading.jpg"/>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="project-wrapper">
+	<div class="project-content-wrapper">
+		<div class="divider">
+		</div>
+		<div class="page-title">
+			Resume
+		</div>
+		<div class="pure-g top-padding">
+			<div class="pure-u-1-1 button3 center">
+				<div class="button3-text">Download</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="project-wrapper">
+	<div class="project-content-wrapper">
+		<div class="divider">
+		</div>
+		<div class="page-title">
+			Contact
 		</div>
 	</div>
 </div>
@@ -123,6 +261,8 @@ Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersMobile viewWi
 </body>
 <script type="text/javascript" src="js/vendor/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/vendor/theater.min.js"></script>
+<script type="text/javascript" src="js/vendor/lightbox.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/projects.js"></script>
 <script type="text/javascript" src="js/typing.js"></script>
 </html>
