@@ -33,6 +33,7 @@ body{
 }
 /* Primary Menu */
 .primary-navigation{
+    z-index:100;
     position:fixed;
     height:100%;
     cursor:pointer;
@@ -188,6 +189,9 @@ body{
 .w80{
     width:80%;
 }
+.w60{
+    width:60%;
+}
 .center{
     margin-left:auto;
     margin-right:auto;
@@ -196,7 +200,7 @@ body{
     width:175px;
     border:1px solid #FFFFFF;
     height:50px;
-    margin-top:50px;
+    margin-top:30px;
     color: #FFFFFF;
     transition: background-color 0.5s ease;
     -webkit-transition: background-color 0.5s ease;
@@ -252,6 +256,15 @@ body{
     padding-bottom:50px;
 }
 /*Home Page*/
+.my-picture{
+    height:100px;
+    width:100px;
+}
+.my-picture-wrapper{
+    height:100px;
+    width:100px;
+    padding-bottom:50px;
+}
 .home-item-1{
     font-family: "Adobe Garamond Pro Italic";
     color: #FFFFFF;
@@ -277,11 +290,14 @@ body{
 }
 @media(max-width: 768px){
     .home-item-2{
-        min-height:10%;
+        min-height:13%;
         font-size:20pt;
     }
     .home-item-1{
         font-size: 15pt;
+    }
+    .my-picture-wrapper{
+        padding-bottom:20px;
     }
 }
 
@@ -377,6 +393,14 @@ body{
         margin-right:10%;
         display:none;
     }
+    .button-container{
+        width:60%;
+    }
+}
+@media(max-width:1000px){
+    .button-container{
+        width:100%;
+    }
 }
 @media(max-width: 768px){
     .text-overlay{
@@ -391,6 +415,9 @@ body{
         margin-left:auto;
         margin-right:auto;
         width:80%;
+    }
+    .button-container{
+        width:100%;
     }
 }
 
@@ -426,8 +453,45 @@ body{
     padding-top:4px;
 }
 
-
-
+/*Contact*/
+@media(min-width: 768px){
+    .image-wrapper{
+        padding-top:50px;
+        width:150px;
+        padding-bottom:50px;
+    }
+    .email-image{
+        width:160px;
+        height:160px;
+    }
+    .linkedin-image{
+        width:150px;
+        height:150px;
+    }
+    .github-image{
+        width:150px;
+        height:150px;
+    }
+}
+@media(max-width: 768px){
+    .image-wrapper{
+        padding-top:25px;
+        width:50px;
+        padding-bottom:25px;
+    }
+    .email-image{
+        width:55px;
+        height:55px;
+    }
+    .linkedin-image{
+        width:50px;
+        height:50px;
+    }
+    .github-image{
+        width:50px;
+        height:50px;
+    }
+}
 
 
 

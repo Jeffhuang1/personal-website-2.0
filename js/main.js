@@ -8,10 +8,10 @@ $(document).ready(function(){
 	$('.margin-auto').css('padding-top', menuButtonHeight / 2 -7);	
 	//main home page
 	if(windowWidth > 768){
-		$('.home-item-1').css('padding-top', windowHeight / 3)
+		$('.my-picture-wrapper').css('padding-top', windowHeight / 8)
 	}
 	else{
-		$('.home-item-1').css('padding-top', windowHeight / 6)
+		$('.my-picture-wrapper').css('padding-top', windowHeight / 15)
 	}
 	$( window ).resize(function() {
 		windowHeight = $(window).height();
@@ -19,15 +19,14 @@ $(document).ready(function(){
 		//nav bar
 		var newButtonHeight = $('.menu-item-wrapper').height();
 		$('.margin-auto').css('padding-top', newButtonHeight / 2 + 15);
-
 		//home page
 		if(windowWidth > 768){
 			$('.home-content-wrapper').css('width', windowWidth - 50);
-			$('.home-item-1').css('padding-top', windowHeight / 3)
+			$('.my-picture-wrapper').css('padding-top', windowHeight / 8)
 		}
 		else{
 			$('.home-content-wrapper').css('width', windowWidth);
-			$('.home-item-1').css('padding-top', windowHeight / 6)
+			$('.my-picture-wrapper').css('padding-top', windowHeight / 15)
 		}
 		$('.home-content-wrapper').css('height', windowHeight);
 	});
