@@ -190,6 +190,31 @@ body{
 }
 
 /*Global CSS*/
+
+/* unvisited link */
+a:link {
+    color: #000000;
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+    text-decoration:none;
+}
+
 .w80{
     width:80%;
 }

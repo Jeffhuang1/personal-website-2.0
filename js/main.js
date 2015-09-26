@@ -32,5 +32,7 @@ $(document).ready(function(){
 	});
 
 
-
+	$('.download-resume').click(function(e){
+		window.location.href = "files/jeffreyhuang.pdf";
+	})
 })
