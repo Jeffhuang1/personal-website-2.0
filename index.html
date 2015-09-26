@@ -16,11 +16,10 @@
 <body>
 	<div class="slideout-menu">
 		<ul>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Projects</a></li>
-			<li><a href="#">Interests</a></li>
-			<li><a href="#">Resume</a></li>
-			<li><a href="#">Contact</a></li>
+			<li id="slide-section-1"class="slideout-menu-item"><a href="#">Projects</a></li>
+			<li id="slide-section-2"class="slideout-menu-item"><a href="#">Interests</a></li>
+			<li id="slide-section-3"class="slideout-menu-item"><a href="#">Experience</a></li>
+			<li id="slide-section-4"class="slideout-menu-item"><a href="#">Contact</a></li>
 		</ul>
 	</div>
 	<nav class="primary-navigation">
@@ -28,16 +27,16 @@
 			<div class='logo-wrapper'><img class="personal-icon" src="img/logo.gif"></div>
 			<div class='menu-icon-wrapper menu-toggle'><img class="menu-icon" src="img/menu-icon.svg"></div>			
 	        <ul>
-	        	<div class="menu-item-wrapper">
+	        	<div id="nav-section-1" class="menu-item-wrapper">
 					<li class="margin-auto"><a class="primary-menu-link vertical">Projects</a></li>
 				</div>
-				<div class="menu-item-wrapper">
+				<div id="nav-section-2" class="menu-item-wrapper">
 					<li class="margin-auto"><a class="primary-menu-link vertical">Interests</a></li>
 				</div>
-				<div class="menu-item-wrapper">
-					<li class="margin-auto"><a class="primary-menu-link vertical">Resume</a></li>
+				<div id="nav-section-3" class="menu-item-wrapper">
+					<li class="margin-auto"><a class="primary-menu-link vertical">Experience</a></li>
 				</div>
-				<div class="menu-item-wrapper">
+				<div id="nav-section-4" class="menu-item-wrapper">
 					<li class="margin-auto"><a class="primary-menu-link vertical">Contact</a></li>
 				</div>
 	        </ul>
@@ -56,7 +55,7 @@
 	<div class="w80 center">
 		<div class="pure-g button-row-wrapper">
 			<div class="pure-u-1-1 pure-u-md-1-3 button-wrapper">
-				<div class="button center">
+				<div id="item-section-1" class="button center nav-button">
 					<div class="button-text">
 						Projects
 					</div>
@@ -70,7 +69,7 @@
 				</div>
 			</div>
 			<div class="pure-u-1-1 pure-u-md-1-3 button-wrapper">
-				<div class="button center">
+				<div id="item-section-4" class="button center nav-button">
 					<div class="button-text">
 						Contact
 					</div>
@@ -79,7 +78,7 @@
 		</div>
 	</div>
 </div>
-<div class="project-wrapper">
+<div class="project-wrapper section" id="section-1">
 	<div class="project-content-wrapper">
 		<div class="divider">
 		</div>
@@ -93,11 +92,15 @@
 					<div class="project-content">Personalized Hands-Free Navigational Assistant for Cyclists Made Using BlueTooth, Arduinos, and Google Maps API</div>
 					<div class="thin-row">Winner of Hack the North 2015!</div>
 					<div class="pure-g button-container center">
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Demo</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Demo</div>
+							</div>
 						</div>
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Github</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Github</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -108,11 +111,15 @@
 					<div class="project-title">Draw</div>
 					<div class="project-content">Online Pictionary Application Build on Top of the MEAN Stack and Powered by HTML5 WebSockets.</div>
 					<div class="pure-g button-container center">
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Demo</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Demo</div>
+							</div>
 						</div>
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Github</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Github</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -123,11 +130,15 @@
 					<div class="project-title">Connect 4</div>
 					<div class="project-content">Connect 4 in the Browser with Full AI and Local Multiplayer Support Created with VanillaJS</div>
 					<div class="pure-g button-container center">
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Demo</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Demo</div>
+							</div>
 						</div>
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Github</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Github</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -138,11 +149,15 @@
 					<div class="project-title one-line">Data Binding</div>
 					<div class="project-content">Presentation on Angular.js, Knockout.js, and Knockout.js Built on the RevealJS Presentation Framework</div>
 					<div class="pure-g button-container center">
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Demo</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Demo</div>
+							</div>
 						</div>
-						<div class="pure-u-1-2 button2 center">
-							<div class="button2-text">Github</div>
+						<div class="pure-u-1-2 button-wrapper">
+							<div class="button2 center">
+								<div class="button2-text">Github</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -152,7 +167,7 @@
 	</div>
 </div>
 
-<div class="project-wrapper">
+<div class="project-wrapper section" id="section-2">
 	<div class="project-content-wrapper">
 		<div class="divider">
 		</div>
@@ -216,21 +231,67 @@
 		</div>
 	</div>
 </div>
-<div class="project-wrapper">
+<div class="project-wrapper section" id="section-3">
 	<div class="project-content-wrapper">
 		<div class="divider">
 		</div>
 		<div class="page-title">
-			Resume
+			Experience
+		</div>
+		<div class="experience-wrapper center">
+			<div class="pure-g row">
+				<div class="pure-u-1-1 pure-u-md-1-5 bold">
+					Education
+				</div>
+				<div class="pure-u-1-1 pure-u-md-3-5">
+					<div class="red sm-space">Computer Engineering</div>
+					<div class="italic">University of Waterloo</div>
+				</div>
+				<div class="pure-u-1-1 pure-u-md-1-5 sm-space">
+					<div class="time">Sep 2014 - Present</div>
+					<div class="place">Waterloo, ON</div>
+				</div>
+			</div>
+			<div class="pure-g row">
+				<div class="pure-u-1-1 pure-u-md-1-5 bold">
+					Work Experience
+				</div>
+				<div class="pure-u-1-1 pure-u-md-3-5">
+					<div class="red sm-space">Software Developer</div>
+					<div class="italic">Canadian Tire Innovations</div>
+					<div class="job-description sm-space">As a software developer at Canadian Tire Innovations, I investigated new and emerging technologies to deliver high quality Proof-of-concept solutions. Primarily, I developed mobile web apps using a full JavaScript Stack. Frameworks and libraries include AngularJS, NodeJS, Bootstrap, and others. Database experience includes MySQL and MongoDB. Web apps are with Cordova to test and deploy on IOS and Android.</div>
+				</div>
+				<div class="pure-u-1-1 pure-u-md-1-5 sm-space">
+					<div class="time">Aug 2015 - Present</div>
+					<div class="place">Kitchener, ON</div>
+				</div>
+			</div>
+			<div class="pure-g">
+				<div class="pure-u-1-1 pure-u-md-1-5 bold sm-hide">
+				</div>
+				<div class="pure-u-1-1 pure-u-md-3-5">
+					<div class="red sm-space">Web Application Developer</div>
+					<div class="italic">Ontario Institute of Cancer Research</div>
+					<div class="job-description sm-space">At the Ontario Institute of Cancer Research, I created and maintained websites using Drupal CMS, and LAMP stack. My primary projects were the National Cancer Institute: GDC and Global Alliance for Genomics and Health websites. I developed on both the front-end (HTML, CSS, JavaScript) and back-end (PHP, MySQL). I was also responsible for the creation of automated testing harnesses for our REST APIs using JavaScript.</div>
+				</div>
+				<div class="pure-u-1-1 pure-u-md-1-5 sm-space">
+					<div class="time">Jan 2015 - May 2015</div>
+					<div class="place">Toronto, ON</div>
+				</div>
+			</div>
 		</div>
 		<div class="pure-g top-padding">
-			<div class="pure-u-1-1 button3 center">
-				<div class="button3-text">Download</div>
+			<div class="pure-u-1-1 button-wrapper">
+				<div class="button3 center">
+					<div class="button3-text">
+						Download Resume
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="project-wrapper">
+<div class="project-wrapper section" id="section-4">
 	<div class="project-content-wrapper">
 		<div class="divider">
 		</div>
@@ -268,7 +329,9 @@
 <script type="text/javascript" src="js/vendor/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/vendor/theater.min.js"></script>
 <script type="text/javascript" src="js/vendor/lightbox.min.js"></script>
+<script type="text/javascript" src="js/vendor/waypoint.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/projects.js"></script>
 <script type="text/javascript" src="js/typing.js"></script>
+<script type="text/javascript" src="js/navigation.js"></script>
 </html>

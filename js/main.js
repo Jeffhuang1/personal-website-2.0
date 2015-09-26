@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('.home-content-wrapper').css('height', windowHeight);
 	//get height of the parent div for navigational bar
 	var menuButtonHeight = $('.menu-item-wrapper').height();
-	$('.margin-auto').css('padding-top', menuButtonHeight / 2 -7);	
+	$('.margin-auto').css('padding-top', menuButtonHeight / 2 -3);	
 	//main home page
 	if(windowWidth > 768){
 		$('.my-picture-wrapper').css('padding-top', windowHeight / 8)
@@ -18,7 +18,7 @@ $(document).ready(function(){
 		windowWidth = $(window).width();
 		//nav bar
 		var newButtonHeight = $('.menu-item-wrapper').height();
-		$('.margin-auto').css('padding-top', newButtonHeight / 2 + 15);
+		$('.margin-auto').css('padding-top', newButtonHeight / 2 - 3);
 		//home page
 		if(windowWidth > 768){
 			$('.home-content-wrapper').css('width', windowWidth - 50);
@@ -33,33 +33,4 @@ $(document).ready(function(){
 
 
 
-
-	$('.menu-toggle').on('click', function(event){
-    	event.preventDefault();
-    	// create menu variables
-    	var slideoutMenu = $('.slideout-menu');
-    	var toggleButton = $('.primary-navigation');
-    	var toggleButtonWidth = $('.menu-toggle').width();
-    	var slideoutMenuWidth = $('.slideout-menu').width();
-    	
-    	// toggle open class
-    	slideoutMenu.toggleClass("open");
-    	
-    	// slide menu
-    	if (slideoutMenu.hasClass("open")) {
-	    	slideoutMenu.animate({
-		    	left: "0px"
-	    	}, {duration:400, queue:false});
-	    	toggleButton.animate({
-	    		left: slideoutMenuWidth
-	    	}, {duration:400, queue:false})	
-    	} else {
-	    	slideoutMenu.animate({
-		    	left: -slideoutMenuWidth
-	    	});	
-	    	toggleButton.animate({
-	    		left: "0px"
-	    	})	
-    	}
-    });
 })

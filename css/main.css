@@ -12,6 +12,10 @@
     src: url(../fonts/Proxima-Nova-Bold.otf);
 }
 @font-face {
+    font-family: "Proxima Nova Italic";
+    src: url(../fonts/Proxima-Nova-Italic.ttf);
+}
+@font-face {
     font-family: "Proxima Nova";
     src: url(../fonts/Proxima-Nova-Regular.otf);
 }
@@ -246,7 +250,7 @@ body{
     padding-top:10px;
 }
 .menu-item-wrapper:hover{
-    border-right: 1px solid #FFFFFF;
+    border-right: 3px solid #21d8ff;
 }
 .thin-row{
     padding-top:15px;
@@ -254,6 +258,9 @@ body{
 .row{
     padding-top:50px;
     padding-bottom:50px;
+}
+.highlight{
+    border-right: 3px solid #21d8ff;
 }
 /*Home Page*/
 .my-picture{
@@ -347,22 +354,6 @@ body{
     margin-left:auto;
     margin-right:auto;
 }
-/*#hack-the-north{
-    background: url("../img/projects/hack-the-north.png") no-repeat center;
-    background-size: 300px 300px;
-}
-#draw{
-    background: url("../img/projects/draw.png") no-repeat center;
-    background-size: 300px 200px;
-}
-#connect4{
-    background: url("../img/projects/connect4.png") no-repeat center;
-    background-size: 300px 250px;
-}
-#data-binding{
-    background: url("../img/projects/data-binding.png") no-repeat center;
-    background-size: 300px 300px;
-}*/
 .text-overlay{
     position:absolute;
     z-index:-5;
@@ -389,13 +380,14 @@ body{
         margin:auto;
     }
     .text-overlay{
-        margin-left:10%;
-        margin-right:10%;
+        margin-left:20%;
+        margin-right:20%;
         display:none;
     }
     .button-container{
-        width:60%;
+        width:80%;
     }
+
 }
 @media(max-width:1000px){
     .button-container{
@@ -417,7 +409,11 @@ body{
         width:80%;
     }
     .button-container{
-        width:100%;
+        width:85%;
+    }
+    .project-content{
+        margin-left:10%;
+        margin-right:10%;
     }
 }
 
@@ -431,7 +427,7 @@ body{
     width:250px;
     border:1px solid #000000;
     height:50px;
-    margin-top:25px;
+    margin-top:45px;
     color: #000000;
     transition: background-color 0.5s ease;
     -webkit-transition: background-color 0.5s ease;
@@ -449,8 +445,56 @@ body{
     font-family: "Proxima Nova", "Century Gothic"; 
     margin:auto;
     text-align:center;
-    font-size:25pt;
-    padding-top:4px;
+    font-size:15pt;
+    padding-top:13px;
+}
+
+/*Experience*/
+
+.experience-wrapper{
+}
+.bold{
+    font-family: "Proxima-Nova-Bold"!important;
+    font-weight: bold;
+}
+.red{
+    color: #df4244;
+    font-family: "Proxima-Nova-Regular";
+}
+.italic{
+    font-family: "Proxima-Nova-Italic";
+    font-style: italic;
+}
+.place{
+    font-family:"Proxima-Nova-Regular";
+    color: #a8a8a8;
+}
+.time{
+    font-family:"Proxima-Nova-Regular";
+    color:#444;
+}
+.job-description{
+    font-family:"Open Sans";
+    color:#a8a8a8;
+    font-size:11pt;
+}
+@media(min-width: 768px){
+    .job-description{
+        width:80%;
+    }
+}
+
+@media(max-width: 768px){
+    .sm-hide{
+        display:none;
+    }
+    .sm-space{
+        margin-top:25px;
+    }
+    .experience-wrapper{
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
 
 /*Contact*/
@@ -492,8 +536,6 @@ body{
         height:50px;
     }
 }
-
-
 
 
 
