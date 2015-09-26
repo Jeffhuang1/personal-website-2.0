@@ -245,7 +245,7 @@ a:active {
 .button-text{
     font-family: "Proxima Nova", "Century Gothic"; 
     margin:auto;
-    padding-top:14px;
+    padding-top:13px;
     text-align:center;
     font-size:15pt;
 }
@@ -271,7 +271,7 @@ a:active {
     font-family: "Proxima Nova", "Century Gothic"; 
     margin:auto;
     text-align:center;
-    font-size:7pt;
+    font-size:12pt;
     padding-top:10px;
 }
 .menu-item-wrapper:hover{
@@ -289,12 +289,12 @@ a:active {
 }
 /*Home Page*/
 .my-picture{
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
 }
 .my-picture-wrapper{
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
     padding-bottom:50px;
 }
 .home-item-1{
@@ -319,10 +319,17 @@ a:active {
         font-size: 35pt;
         min-height:20%;
     }
+    .button2{
+        width:120px;
+        height:40px;
+    }
+    .thin-row{
+        font-size: 18pt;
+    }
 }
 @media(max-width: 768px){
     .home-item-2{
-        min-height:13%;
+        min-height:80px;
         font-size:20pt;
     }
     .home-item-1{
@@ -330,6 +337,25 @@ a:active {
     }
     .my-picture-wrapper{
         padding-bottom:20px;
+    }
+    .button{
+        margin-top:10px;
+        height: 30px;
+    }
+    .button-text{
+        padding-top:8px;
+        font-size:10pt;
+    }
+    .button2-text{
+        padding-top:6px;
+    }
+    .my-picture{
+        width:100px;
+        height:100px;
+    }
+    .my-picture-wrapper{
+        width:100px;
+        height:100px;
     }
 }
 
@@ -344,7 +370,7 @@ a:active {
     font-family: "Adobe Garamond Pro";
     text-transform: uppercase;
     padding-top:30px;
-    font-size:30pt;
+    font-size:35pt;
 }
 .divider{
     padding-top:50px;
@@ -360,11 +386,8 @@ a:active {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
 }
-.nodejs{
-    height:300px;
-}
 .connect4{
-    height:250px;
+    height:300px;
 }
 .project-image-wrapper{
     position:relative;
@@ -401,19 +424,39 @@ a:active {
         margin-left: 50px;
     }
     .project-content-wrapper{
-        width:80%;
+        width:90%;
         margin:auto;
     }
+    .text-overlay{
+        margin-left:5%;
+        margin-right:5%;
+        display:none;
+    }
+    .project-content{
+        font-size:18pt;
+    }
+
+}
+@media(min-width: 1200px){
+    .button-container{
+        width:80%;
+    }
+}
+@media(min-width: 1000px){
     .text-overlay{
         margin-left:20%;
         margin-right:20%;
         display:none;
+    }    
+    .project-image{
+        height:400px;
+        width:400px;
     }
-    .button-container{
-        width:80%;
+    .connect4{
+        height:350px;
     }
-
 }
+
 @media(max-width:1000px){
     .button-container{
         width:100%;
@@ -492,7 +535,7 @@ a:active {
 }
 .place{
     font-family:"Proxima-Nova-Regular";
-    color: #a8a8a8;
+    color: #7e7e7e;
 }
 .time{
     font-family:"Proxima-Nova-Regular";
@@ -500,7 +543,7 @@ a:active {
 }
 .job-description{
     font-family:"Open Sans";
-    color:#a8a8a8;
+    color:#7e7e7e;
     font-size:11pt;
 }
 @media(min-width: 768px){
