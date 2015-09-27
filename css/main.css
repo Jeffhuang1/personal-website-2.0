@@ -426,8 +426,6 @@ a:active {
     text-align:center;
     font-family:"Proxima Nova";
 }
-.one-line{
-}
 .project-text-jarvis{
     padding-top:20px;
 }
@@ -536,9 +534,6 @@ a:active {
 }
 
 /*Experience*/
-
-.experience-wrapper{
-}
 .bold{
     font-family: "Proxima Nova Bold"!important;
     font-weight: bold;
