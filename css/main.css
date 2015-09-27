@@ -391,6 +391,9 @@ a:active {
     padding-top:50px;
     border-bottom:1px solid #e0e0e0;
 }
+.no-space{
+    padding-top:0px;
+}
 .project-image{
     display:block;
     height:300px;
