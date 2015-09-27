@@ -361,7 +361,7 @@ a:active {
 
 /*My Projects*/
 .page-title{
-    font-family: "Adobe Garamond Pro";
+    font-family: "Proxima Nova Bold";
     font-size:40pt;
     text-align:center;
     padding-top:35px;
@@ -522,27 +522,26 @@ a:active {
 .experience-wrapper{
 }
 .bold{
-    font-family: "Proxima-Nova-Bold"!important;
+    font-family: "Proxima Nova Bold"!important;
     font-weight: bold;
 }
 .red{
     color: #df4244;
-    font-family: "Proxima-Nova-Regular";
+    font-family: "Proxima Nova";
 }
 .italic{
-    font-family: "Proxima-Nova-Italic";
-    font-style: italic;
+    font-family: "Proxima Nova Italic";
 }
 .place{
-    font-family:"Proxima-Nova-Regular";
+    font-family:"Proxima Nova";
     color: #7e7e7e;
 }
 .time{
-    font-family:"Proxima-Nova-Regular";
+    font-family:"Proxima Nova";
     color:#444;
 }
 .job-description{
-    font-family:"Open Sans";
+    font-family:"Proxima Nova","Open Sans";
     color:#7e7e7e;
     font-size:11pt;
 }
