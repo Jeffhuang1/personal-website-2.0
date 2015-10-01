@@ -3,15 +3,15 @@ var theater = new TheaterJS();
 
 // Describe actors
 theater
-    .describe("Typer", 1.2, "#typer");
+    .describe("Typer", 2, "#typer");
 
 // Write the scenario
 theater
-    .write("Typer:Objected Oriented Programming",2000)
-    .write("Typer:Mobile Programming", 2000)
-    .write("Typer:The LAMP Stack", 2000)
-    .write("Typer:The MEAN Stack", 2000)
-    .write("Typer:Software Design", 2000)
+    .write("Typer:Objected Oriented Programming",1000)
+    .write("Typer:Mobile Programming", 1000)
+    .write("Typer:The LAMP Stack", 1000)
+    .write("Typer:The MEAN Stack", 1000)
+    .write("Typer:Software Design", 1000)
     .write(function () { theater.play(true); });
 
 // Listen to theater's events
