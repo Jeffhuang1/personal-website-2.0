@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('.home-content-wrapper').css('height', windowHeight);
 	//get height of the parent div for navigational bar
 	var menuButtonHeight = $('.menu-item-wrapper').height();
-	$('.margin-auto').css('padding-top', menuButtonHeight / 2 -3);	
+	$('.margin-auto').css('padding-top', menuButtonHeight / 2 +4);	
 	//main home page
 	if(windowWidth > 768){
 		$('.my-picture-wrapper').css('padding-top', windowHeight / 8)
@@ -18,7 +18,7 @@ $(document).ready(function(){
 		windowWidth = $(window).width();
 		//nav bar
 		var newButtonHeight = $('.menu-item-wrapper').height();
-		$('.margin-auto').css('padding-top', newButtonHeight / 2 - 3);
+		$('.margin-auto').css('padding-top', newButtonHeight / 2 +4);
 		//home page
 		if(windowWidth > 768){
 			$('.home-content-wrapper').css('width', windowWidth - 50);

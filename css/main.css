@@ -67,7 +67,6 @@ body{
     padding-left:15px;
 }
 .vertical{
-    writing-mode:tb-rl;
     -webkit-transform:rotate(270deg);
     -moz-transform:rotate(270deg);
     -o-transform: rotate(270deg);
@@ -191,6 +190,16 @@ body{
 
 /*Global CSS*/
 
+/* Overwrite LightBox CSS */
+.lb-data .lb-caption{
+    color: #FFFFFF;
+    font-family: "Proxima Nova";
+}
+@media(min-width:768px){
+    .lb-data .lb-caption{
+        font-size: 16px;
+    }
+}
 /* unvisited link */
 a:link {
     color: #000000;
@@ -382,6 +391,9 @@ a:active {
     padding-top:50px;
     border-bottom:1px solid #e0e0e0;
 }
+.no-space{
+    padding-top:0px;
+}
 .project-image{
     display:block;
     height:300px;
@@ -413,8 +425,6 @@ a:active {
     z-index:-5;
     text-align:center;
     font-family:"Proxima Nova";
-}
-.one-line{
 }
 .project-text-jarvis{
     padding-top:20px;
@@ -524,9 +534,6 @@ a:active {
 }
 
 /*Experience*/
-
-.experience-wrapper{
-}
 .bold{
     font-family: "Proxima Nova Bold"!important;
     font-weight: bold;
