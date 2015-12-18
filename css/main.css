@@ -321,7 +321,7 @@ a:active {
     color: #FFFFFF;
     text-align:center;
 }
-@media(min-width: 768px){
+@media(min-width: 1000px){
     .home-content-wrapper{
         margin-left: 50px;
     }
@@ -435,7 +435,7 @@ a:active {
 .project-text-connect-4{
     padding-top:15px;
 }
-@media(min-width: 768px){
+@media(min-width: 1000px){
     .project-wrapper{
         margin-left: 50px;
     }
@@ -563,11 +563,20 @@ a:active {
         width:80%;
     }
 }
-
-@media(max-width: 768px){
+@media(max-width: 500px){
     .sm-hide{
         display:none;
     }
+}
+
+@media(max-width: 800px){
+    .padding-ipad{
+        padding-left: 60px;
+	padding-right: 60px;
+    }
+}
+
+@media(max-width: 500px){
     .sm-space{
         margin-top:25px;
     }
